@@ -1,0 +1,45 @@
+body{
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+#linha {
+    width: 250px;
+    height: 100px;
+    background: blue;
+    
+    
+}
+.coluna{
+    float: left;
+    color: white;
+    font: normal 15pt Arial;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}    
+#div1{
+    width: 50px;
+    height: 80px;
+    background: rgb(255, 0, 179);
+    float: left;
+}
+#div2{
+    width: 50px;
+    height: 80px;
+    background: rgb(255, 0, 179);
+}
+#div3{
+    width: 50px;
+    height: 80px;
+    background: rgb(255, 0, 179);
+}
+#div4{
+    width: 50px;
+    height: 80px;
+    background: rgb(255, 0, 179);
+}
+#div5{
+    width: 50px;
+    height: 80px;
+    background: rgb(255, 0, 179);
+}
