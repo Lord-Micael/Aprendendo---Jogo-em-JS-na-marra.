@@ -13,6 +13,13 @@ p .andar{
     text-align: center;
     
 }
+#fim{
+    float: button;
+    margin: center;
+    text-align: center;
+    font: normal 25pt arial;
+
+}
 #linha {
     width: 270px;
     height: 100px;
@@ -26,7 +33,7 @@ p .andar{
     float: left;
     color: white;
     font: normal 15pt Arial;
-    margin: 10px 0px;
+    margin-top: 15px;
     border-radius: 5px;
     text-align: center;
 }    
@@ -53,6 +60,48 @@ p .andar{
     background: rgb(255, 0, 179);
 }
 #div5{
+    width: 50px;
+    height: 80px;
+    background: rgb(255, 0, 179);
+}
+#linha2 {
+    width: 270px;
+    height: 100px;
+    background: rgba(0, 255, 255, 0.493);
+    margin: auto;
+    border-radius: 10px;
+}   
+.coluna2{
+    float: left;
+    color: white;
+    font: normal 15pt Arial;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+} 
+#div6{
+    width: 50px;
+    height: 80px;
+    background: rgb(255, 0, 179);
+    float: left;
+    margin-left: 10px;
+}
+#div7{
+    width: 50px;
+    height: 80px;
+    background: rgb(255, 0, 179);
+}
+#div8{
+    width: 50px;
+    height: 80px;
+    background: rgb(255, 0, 179);
+}
+#div9{
+    width: 50px;
+    height: 80px;
+    background: rgb(255, 0, 179);
+}
+#div10{
     width: 50px;
     height: 80px;
     background: rgb(255, 0, 179);
