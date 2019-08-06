@@ -10,32 +10,34 @@ var campo9 = window.document.getElementById('div9')
 var campo10 = window.document.getElementById('div10')
 var obj = 'X'
 let local = [campo1, campo2, campo3, campo4, campo5, campo6, campo7, campo8, campo9, campo10]
-let pos = 9
-local[pos].innerText = 'X'
-var desafio = '0'
-local[7].innerText = (desafio)
+var estado = 'vivo'
 
-//Abaixo o algoritmo que faz com que eu passeie pelas divs.
+function andar(){
+    let pos = 9
+    local[pos].innerText = (obj)
+    var desafio = '0'
+    local[7].innerText = (desafio)
 
-addEventListener('keydown', qualquer)
-function qualquer(evento){
-    
-    
+
+    addEventListener('keydown', qualquer)
+    function qualquer(evento){
+
+
         var char = evento.char || evento.charCode || evento.which;
-        if (char == 37 && pos != 0){
+        if (char == 37 && pos != 0 && pos != 5){
             local[pos].innerText = ''
             pos--
-            if (local[pos].innerText == desafio){       //Assim que a seta é ativada, a posição (pos) receberá mais um número. Ao receber esse número ela testará se a div está vazia, se não estiver vazia ela dá erro, se estiver vazia ela continua o processo normalmente.
-                window.alert('Game Over!')
+            if (local[pos].innerText == desafio){   
+                gameOver()          // assim que é feito a validação, se odesafio estiver dentro da div aciona a function gameOver.
             } else {
                 local[pos].innerText = 'X'
             }            
             
-        } else if(char == 39 && pos != 9){
+        } else if(char == 39 && pos != 9 && pos != 4){
             local[pos].innerText = ''
             pos++
             if (local[pos].innerText == desafio){
-                window.alert('Game Over!')
+                gameOver()
             } else {
                 local[pos].innerText = 'X'
             } 
@@ -43,7 +45,7 @@ function qualquer(evento){
             local[pos].innerText = ''
             pos -= 5
             if (local[pos].innerText == desafio){
-                window.alert('Game Over!')
+                gameOver()
             } else {
                 local[pos].innerText = 'X'
             } 
@@ -51,18 +53,34 @@ function qualquer(evento){
             local[pos].innerText = ''
             pos += 5
             if (local[pos].innerText == desafio){
-                window.alert('Game Over!')
+                gameOver()
             } else {
                 local[pos].innerText = 'X'
             } 
         } else{
             //window.alert('Ainda não reconhecemos essa tecla.')
         }
-    
+
         
-    
+
+    }
+
 }
 
+
+function gameOver(){
+    //clear.andar()
+    local.innerText = ''
+    //desafio = ''
+    campo1.innerText = 'G'
+    campo2.innerText = 'A'
+    campo3.innerText = 'M'
+    campo4.innerText = 'E'
+    campo7.innerText = 'O'
+    campo8.innerText = 'V'
+    campo9.innerText = 'E'
+    campo10.innerText = "R"
+}
 
 
 
