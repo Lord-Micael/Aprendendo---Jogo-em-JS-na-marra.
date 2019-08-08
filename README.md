@@ -8,5 +8,5 @@ Quarto dia, consegui fazer com que as setas do teclado movimentassem o objeto e 
 Quinto dia, fiz com que o jogo finalizasse assim que o objeto encontrasse um obstáculo.//
 Sexto dia, deixei o CSS um pouco mais bonito, e fiquei travado no código JS, não consegui fazer com que os botões travassem após o gameover.// 
 Sétimo dia, ainda estou travado em como fazer os botões travarem após o gameover.//
-
+Oitavo dia, continuo travado em como fazer os botões travarem após o gameover. Vou seguir em frente e tentar realizar as outras coisas, RETORNAREI a esse problema depois.//
 
