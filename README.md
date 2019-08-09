@@ -9,4 +9,6 @@ Quinto dia, fiz com que o jogo finalizasse assim que o objeto encontrasse um obs
 Sexto dia, deixei o CSS um pouco mais bonito, e fiquei travado no código JS, não consegui fazer com que os botões travassem após o gameover.// 
 Sétimo dia, ainda estou travado em como fazer os botões travarem após o gameover.//
 Oitavo dia, continuo travado em como fazer os botões travarem após o gameover. Vou seguir em frente e tentar realizar as outras coisas, RETORNAREI a esse problema depois.//
+Nono dia, comecei a criar os objetos e tentar fazer com que eles andem pelas divs.//
+
 
