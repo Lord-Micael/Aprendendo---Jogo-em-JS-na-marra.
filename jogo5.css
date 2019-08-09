@@ -18,8 +18,7 @@ p .andar{
     margin: center;
     text-align: center;
     font: normal 25pt arial;
-
-}
+} // preciso resolver o CSS tbm.
 #linha {
     width: 270px;
     height: 100px;
