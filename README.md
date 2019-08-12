@@ -11,6 +11,8 @@ Sétimo dia, ainda estou travado em como fazer os botões travarem após o gameo
 Oitavo dia, continuo travado em como fazer os botões travarem após o gameover. Vou seguir em frente e tentar realizar as outras coisas, RETORNAREI a esse problema depois.//
 Nono dia, comecei a criar os objetos e tentar fazer com que eles andem pelas divs.//
 Décimo dia, atualizando os objetos criados e apagando os arquivos repetidos.//
+Dia 11, atualização do diário.
+Dia 12, atualização do diário da criação do jogo.
 
 
 
