@@ -13,3 +13,4 @@ Dia 11, atualização do diário.//
 Dia 12, atualização do diário da criação do jogo.//
 Dia 13, atualização do diário da criação do jogo.//
 Dia 14, atualização do diário da criação do jogo.//
+Dia 15, atualização do diário.
