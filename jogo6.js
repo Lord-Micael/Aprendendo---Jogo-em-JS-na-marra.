@@ -140,7 +140,7 @@ function gameOver(){
     campo10.innerText = "R"
 }
 
-
+//a
 
 
 
